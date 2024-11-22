@@ -88,6 +88,22 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Common_Repo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Swashbuckle.AspNetCore": "6.6.2"
+        },
+        "compile": {
+          "bin/placeholder/Common_Repo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common_Repo.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -439,10 +455,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Common_Repo/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common_Repo/Common_Repo.csproj",
+      "msbuildProject": "../Common/Common_Repo/Common_Repo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Common_Repo >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -473,7 +495,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Tushar\\github_repo_demo_subtree\\Admin_Console\\Common\\Common_Repo\\Common_Repo.csproj": {
+              "projectPath": "E:\\Tushar\\github_repo_demo_subtree\\Admin_Console\\Common\\Common_Repo\\Common_Repo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

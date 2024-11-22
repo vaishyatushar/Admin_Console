@@ -31,3 +31,8 @@ E:\Tushar\github_repo_demo_subtree\Admin_Console\Admin_Console\obj\Debug\net8.0\
 E:\Tushar\github_repo_demo_subtree\Admin_Console\Admin_Console\obj\Debug\net8.0\Admin_Console.pdb
 E:\Tushar\github_repo_demo_subtree\Admin_Console\Admin_Console\obj\Debug\net8.0\Admin_Console.genruntimeconfig.cache
 E:\Tushar\github_repo_demo_subtree\Admin_Console\Admin_Console\obj\Debug\net8.0\ref\Admin_Console.dll
+E:\Tushar\github_repo_demo_subtree\Admin_Console\Admin_Console\bin\Debug\net8.0\Common_Repo.deps.json
+E:\Tushar\github_repo_demo_subtree\Admin_Console\Admin_Console\bin\Debug\net8.0\Common_Repo.runtimeconfig.json
+E:\Tushar\github_repo_demo_subtree\Admin_Console\Admin_Console\bin\Debug\net8.0\Common_Repo.exe
+E:\Tushar\github_repo_demo_subtree\Admin_Console\Admin_Console\bin\Debug\net8.0\Common_Repo.dll
+E:\Tushar\github_repo_demo_subtree\Admin_Console\Admin_Console\bin\Debug\net8.0\Common_Repo.pdb
