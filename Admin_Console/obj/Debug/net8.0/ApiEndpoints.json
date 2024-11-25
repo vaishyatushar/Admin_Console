@@ -1,8 +1,18 @@
 [
   {
     "ContainingType": "Admin_Console.Controllers.WeatherForecastController",
+    "Method": "GetMessage",
+    "RelativePath": "api/WeatherForecast/GetMessage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Admin_Console.Controllers.WeatherForecastController",
     "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "RelativePath": "api/WeatherForecast/GetWeatherForecast",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -17,7 +27,6 @@
         ],
         "StatusCode": 200
       }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    ]
   }
 ]

@@ -1,9 +1,10 @@
+using Common_Repo;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Admin_Console.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -18,7 +19,7 @@ namespace Admin_Console.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet("GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
@@ -28,6 +29,13 @@ namespace Admin_Console.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        [HttpGet("GetMessage")]
+        public IActionResult GetMessage()
+        {
+            var message = new Message();
+            return Ok(message.GetMessage());
         }
     }
 }

@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "JmYs0br0Z65koOyzudtAaMtAkAvKEPH69UT+ReWMpQ0=",
+  "Hash": "Qzi7gjYdItRXOm5Lal4HLexFCuleMBqxq7fHCl1VB80=",
   "Source": "Admin_Console",
   "BasePath": "_content/Admin_Console",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "E:\\Tushar\\github_repo_demo_subtree\\Admin_Console\\Common\\Common_Repo\\Common_Repo.csproj",
+      "Version": 2,
+      "Source": "Common_Repo",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }
